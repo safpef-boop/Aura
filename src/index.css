@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    color: #171717;
+    background-color: #FAF9F6;
+  }
+}
+
+.font-serif-luxury {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.font-brand-display {
+  font-family: 'Cinzel', Georgia, serif;
+}
+
+.font-mono-luxury {
+  font-family: 'Space Grotesk', monospace;
+}
+
+/* Subtle luxury grain & custom utilities */
+.bg-warm-canvas {
+  background-color: #FAF9F6;
+}
+
+.bg-warm-card {
+  background-color: #FFFFFF;
+}
+
+/* Hide scrollbars for clean horizontal brand scrolling */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
